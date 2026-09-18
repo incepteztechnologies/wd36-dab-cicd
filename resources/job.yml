@@ -1,0 +1,11 @@
+resources:
+  jobs:
+    lakeflow_job_orchestrate_project_nb:
+
+      name: lakeflow_job_orchestrate_project_nb
+
+      tasks:
+        - task_key: run_python_notebook
+
+          notebook_task:
+            notebook_path: ../src/python_nb.ipynb
